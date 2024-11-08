@@ -1,0 +1,128 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  text-align: center;
+  background-color: rgb(0, 136, 29);
+  color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+header .container a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+header .container a:hover {
+  background-color: grey;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  background-color: rgb(2, 226, 35);
+  height: 800px;
+}
+
+nav h2 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  padding: 15px;
+  text-align: center;
+}
+
+article {
+  float: left;
+  width: 70%;
+  background-color: rgb(0, 151, 20);
+  height: 800px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  padding: 15px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
+nav ul li:hover {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* Fix for footer menu */
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  padding: 20px;
+}
+
+footer {
+  background-color: blue;
+  text-align: center;
+  padding: 20px;
+}
+
+footer h2 {
+  color: rgb(255, 255, 255);
+  padding-top: 20px;
+}
+
+/* Clearfix for floated elements */
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* THIS CSS IS FOR TABLE */
+table {
+  width: 50%;
+  border-collapse: collapse;
+  border: 1px solid rgb(0, 0, 0); 
+  margin-bottom: 20px;
+  height: 20%;
+}
+
+th {
+  background-color: rgb(110, 76, 202);
+  color: white;
+  padding: 8px;
+}
+
+td {
+  background-color: green;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: medium;
+  width: 50%;
+  border: 1px solid black; 
+  padding: 8px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}

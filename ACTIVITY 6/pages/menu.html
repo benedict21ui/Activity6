@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>jQuery UI Accordion</title>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link rel="stylesheet" href="/css/customstyle.css">
+  <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <script>
+    $( function() {
+      $( "#menu" ).menu();
+    } );
+    </script>
+    <style>
+    .ui-menu { width: 150px; }
+    </style>
+    </head>
+    <body>
+        <!-- HEADER -->
+      <header>
+        <h1>JQUERY - BENEDICT PRECLARO</h1>
+    </header>
+  
+    <!-- MAIN SECTION -->
+    <section>
+        <!-- NAVIGATION MENU ON LEFT SIDE -->
+        <nav>
+          <ul class="navigation_menu">
+              <li><a href="pages/accordion.html">Accordion</a></li>
+              <li><a href="pages/autocomplete.html">Autocomplete</a></li>
+              <li><a href="pages/button.html">Button</a></li>
+              <li><a href="pages/checkboxradio.html">Checkboxradio</a></li>
+              <li><a href="pages/controlgroup.html">Controlgroup</a></li>
+              <li><a href="pages/datepicker.html">Datepicker</a></li>
+              <li><a href="pages/dialog.html">Dialog</a></li>
+              <li><a href="pages/menu.html">Menu</a></li>
+              <li><a href="pages/progressbar.html">Progressbar</a></li>
+              <li><a href="pages/selectmenu.html">Selectmenu</a></li>
+              <li><a href="pages/slider.html">Slider</a></li>
+              <li><a href="pages/spinner.html">Spinner</a></li>
+              <li><a href="pages/tabs.html">Tabs</a></li>
+              <li><a href="pages/tooltip.html">Tooltip</a></li>
+          </ul>
+      </nav>
+        
+        <!-- CONTENT AREA -->
+        <article>        
+          <h2>Menu</h2>
+          <ul id="menu">
+            <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+            <li><div>Books</div></li>
+            <li><div>Clothing</div></li>
+            <li><div>Electronics</div>
+              <ul>
+                <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+                <li><div>Car Hifi</div></li>
+                <li><div>Utilities</div></li>
+              </ul>
+            </li>
+            <li><div>Movies</div></li>
+            <li><div>Music</div>
+              <ul>
+                <li><div>Rock</div>
+                  <ul>
+                    <li><div>Alternative</div></li>
+                    <li><div>Classic</div></li>
+                  </ul>
+                </li>
+                <li><div>Jazz</div>
+                  <ul>
+                    <li><div>Freejazz</div></li>
+                    <li><div>Big Band</div></li>
+                    <li><div>Modern</div></li>
+                  </ul>
+                </li>
+                <li><div>Pop</div></li>
+              </ul>
+            </li>
+            <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+          </ul>
+    </body>
+  </html>
